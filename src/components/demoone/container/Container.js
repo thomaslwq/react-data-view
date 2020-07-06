@@ -4,7 +4,6 @@ import CountUp from "react-countup"
 import echarts from "echarts";
 import "echarts/map/js/china"
 import "echarts/theme/shine"
-console.log(echarts);
 export default class Container extends Component {
     state = {
         listed_companies_total: 0, //上市公司数
